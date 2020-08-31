@@ -1,9 +1,13 @@
-name: '👋 Felicia github action'
+name: 'Amazon Alexa notifications action'
 author: 'Tony Diaz'
-description: 'Deletes your repository using `Bye Felicia` in a comment'
+description: 'Sends a notification to your Alexa device based on a Github action'
 with:
-  github-secret:  
-    required: true 
+  api-key:
+    required: true
+  api-secret:
+    required: true
+  message: 
+    required: true
 runs:
   using: 'node12'
   main: 'dist/index.js'

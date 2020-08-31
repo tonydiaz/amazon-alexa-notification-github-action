@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "prepare": "ncc build index.js -o dist --source-map",
     "test": "jest",
-    "all": " npm run prepare"
+    "all": "npm run lint && npm run prepare"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,6 @@
   "homepage": "https://github.com/tonydiaz/amazon-alexa-notification-github-action#readme",
   "dependencies": {
     "@actions/core": "^1.1.1",
-    "@actions/github": "^1.1.0",
     "@actions/http-client": "^1.0.8"
   },
   "devDependencies": {

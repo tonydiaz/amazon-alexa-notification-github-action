@@ -13,7 +13,7 @@ async function run() {
     const octokit = new github.GitHub(githubSecret);
     const comment = github.context.payload.comment;
     const notifyMeEndpoint = "https://api.getnotify.me/submit";
-    const creds = auth.BasicCredentialHandler(apiKey, apiSecret);
+    const creds = new auth.BasicCredentialHandler(apiKey, apiSecret);
     const httpClient = new http.HttpClient('notify-me', [creds]);
     console.log(github.context);
     const body = {

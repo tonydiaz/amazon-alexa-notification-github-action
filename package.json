@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "ncc build index.js -o dist --source-map",
-    "test": "jest",
     "all": "npm run lint && npm run prepare"
   },
   "repository": {
@@ -30,7 +29,6 @@
   },
   "devDependencies": {
     "@vercel/ncc": "^0.23.0",
-    "eslint": "^7.4.0",
-    "jest": "^26.1.0"
+    "eslint": "^7.4.0"
   }
 }

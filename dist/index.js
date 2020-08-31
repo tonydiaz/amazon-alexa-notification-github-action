@@ -25317,7 +25317,9 @@ async function run() {
     const notifyMeEndpoint = "https://api.getnotify.me/submit";
     const creds = new auth.BasicCredentialHandler(apiKey, apiSecret);
     const httpClient = new http.HttpClient('notify-me', [creds]);
-    console.log(github.context);
+    console.log(github);
+    console.log("context", github.context);
+    console.log(github.context.eventName);
     const body = {
       'message': 'hello world'
     }

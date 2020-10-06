@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/tonydiaz/amazon-alexa-notification-github-action#readme",
   "dependencies": {
-    "@actions/core": "^1.1.1",
+    "@actions/core": "^1.2.6",
     "@actions/http-client": "^1.0.8"
   },
   "devDependencies": {

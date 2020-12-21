@@ -28,7 +28,7 @@
     "@actions/http-client": "^1.0.8"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.24.1",
+    "@vercel/ncc": "^0.26.1",
     "eslint": "^7.4.0"
   }
 }

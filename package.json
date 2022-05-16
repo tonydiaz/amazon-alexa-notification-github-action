@@ -25,7 +25,7 @@
   "homepage": "https://github.com/tonydiaz/amazon-alexa-notification-github-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/http-client": "^1.0.8"
+    "@actions/http-client": "^2.0.1"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.24.1",
